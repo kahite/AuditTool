@@ -6,6 +6,8 @@
     "configurations": [
 
 
+
+
         {
             "name": "Launch",
             "type": "go",
@@ -13,7 +15,7 @@
             "mode": "auto",
             "program": "${fileDirname}",
             "env": {},
-            "args": []
+            "args": ["thread2=100"]
         }
     ]
 }
